@@ -14,10 +14,9 @@ Try for iOS simulator 7.0.1
 then
 
 ```
-    ngcchk@xe ~ % sudo xcode-select -s /Applications/Xcode.app
-    Password:
-    ngcchk@xe ~ % sudo xcodebuild -runFirstLaunch
-    ngcchk@xe ~ % sudo xcrun simctl runtime add ~/Downloads/iOS_17.0.1_Simulator_Runtime.dmg
+    sudo xcode-select -s /Applications/Xcode.app
+    sudo xcodebuild -runFirstLaunch
+    sudo xcrun simctl runtime add ~/Downloads/iOS_17.0.1_Simulator_Runtime.dmg
 ```
 
 and that at least show a message of "verifying iOS 17.0.simruntime"
